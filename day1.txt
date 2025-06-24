@@ -9,5 +9,7 @@ Day 1:
 
 4) switch case 
 
-5) loops 
+5) loops -> for, while, do-while
+
+6) 
     
