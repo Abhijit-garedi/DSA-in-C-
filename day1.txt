@@ -1,0 +1,11 @@
+Day 1:
+
+1) basic like int , float , double , boolean etc 
+      - program like . welcome printing . sum of two number .
+
+2) Types of Operator: 
+
+3) Condtional statement 
+
+4) 
+    
