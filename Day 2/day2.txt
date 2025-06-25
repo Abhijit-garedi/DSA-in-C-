@@ -1,0 +1,4 @@
+Day 2
+
+pg 1 - count the digits of a number 
+

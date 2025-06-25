@@ -11,5 +11,4 @@ Day 1:
 
 5) loops -> for, while, do-while
 
-6) 
     
