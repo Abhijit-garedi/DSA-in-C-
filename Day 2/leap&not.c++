@@ -17,3 +17,5 @@ int main()
    }
    return 0;
 }
+
+/* if year is divisible by 4 equlas to 0, not divisible by 100 = 0 orr unless its is divisible by 400 equals to 0*/
