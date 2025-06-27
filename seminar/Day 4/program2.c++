@@ -25,10 +25,10 @@ int main() {
         cout << "Sum of Row " <<i+1 << ": " << rowSum << endl;
     }
 
-    for(int i=0; i<n; i++){ // for column wise addtion 
+    for(int i=0; i<m; i++){ // for column wise addtion 
       int columnSum = 0; 
-      for(int j=0; j<m; j++){
-         columnSum += arr[n][m];
+      for(int j=0; j<n; j++){
+         columnSum += arr[j][i];
       }
       cout << " sum of column " << i + 1 <<": "<< columnSum<<endl;
     }
