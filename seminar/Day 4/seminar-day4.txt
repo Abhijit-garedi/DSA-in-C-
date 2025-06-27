@@ -1,0 +1,9 @@
+Day 4 
+
+ totally about 2d array 
+
+     [2 4 6 ]
+     [6 4 9 ]
+
+
+     
