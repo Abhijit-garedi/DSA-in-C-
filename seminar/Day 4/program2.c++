@@ -10,19 +10,27 @@ int main() {
     int arr[n][m];
 
   
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) { // taking input 
         for (int j = 0; j < m; j++) {
             cin >> arr[i][j];
         }
     }
 
    
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) { // for row wise additon 
         int rowSum = 0;
         for (int j = 0; j < m; j++) {
-            rowSum += arr[i][j];
+            rowSum += arr[j][i];
         }
         cout << "Sum of Row " <<i+1 << ": " << rowSum << endl;
+    }
+
+    for(int i=0; i<n; i++){ // for column wise addtion 
+      int columnSum = 0; 
+      for(int j=0; j<m; j++){
+         columnSum += arr[n][m];
+      }
+      cout << " sum of column " << i + 1 <<": "<< columnSum<<endl;
     }
 
     return 0;
